@@ -1,0 +1,165 @@
+body{
+    background-color: rgb(212, 110, 110);
+    color: white;
+    margin: 0px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin: 0px;
+}
+
+.vertical {
+    border: 2px solid rgb(249, 244, 244);
+    height: 530px;
+    position:absolute;
+    left: 50%;
+    border-radius: 10px;
+}
+
+h1{
+    padding: 30px 30px 0px;
+    text-align: center;
+    font-size: 60px;
+}
+
+label{
+
+    display: inline-block;
+    width: 150px;
+    font-weight: bold;
+    text-align: left;
+}
+
+.div1{
+    
+   padding-left: 77px;
+   display: inline-block;
+   width: 500px;
+   height: 520px;
+   position: absolute;
+   left: 5px;
+   text-align: left;
+   font-size: 25px;
+}
+
+.div2{
+
+    padding: 10px 10px 10px 40px;
+    display: inline-block;
+    margin-right: 20px;
+    width: 650px;
+    height: 520px;
+    position: absolute;
+    text-align: left;
+    right: 5px;
+    font-size: 25px;
+}
+
+.chk{
+    display: inline-block;
+}
+.table-data thead tr th {
+    position: sticky;
+    background-color:rgb(212, 110, 110); ;
+    top: 0;
+}
+
+td,th{
+    padding: 15px;
+    padding-left: 0px;
+    text-align: left;
+}
+th{
+    padding-right: 132px;
+    
+}
+
+p{
+    margin-top: 0px;
+    font-weight:bold;
+    text-decoration:solid;
+}
+
+input[type="text"],[type="email"]{
+    margin: 15px;
+    border-radius: 10px;
+    padding: 10px;
+    width: 250px;
+    font-size: 20px;
+}
+
+button{
+    border-radius: 10px;
+    padding: 10px;
+    margin: 30px;
+}
+
+
+input{
+    border: solid black 2px;
+    margin: 12px;
+    display: inline-block;
+    
+}
+
+.table-data {
+    overflow-y: auto;
+    height: 445px;
+}
+
+img{
+    height: 180px;
+    width: 166px;
+    padding: 20px 20px 20px 0px;
+}
+
+.heading{
+    padding: 10px;
+    width: 71%;
+}
+
+#enroll{
+background-color: rgb(100, 100, 240);
+color: white;
+border-radius: 5px;
+margin: 10px;
+padding: 10px;
+font-size: 20px;
+}
+
+#clr{
+background-color: rgb(230, 16, 16);
+color: white;
+border-radius: 5px;
+font-size: 20px;
+}
+
+button:hover{
+    background-color: rgb(205, 83, 7);
+    cursor: pointer;  
+}
+
+@media (max-width:1439px){
+.div1,.div2{
+    position: static;
+    text-align: center;
+    padding: 20px;
+    margin: auto;
+    width: 100%;
+}
+h1{
+    text-align: center;
+}
+table{
+    width: 100%;
+}
+.vertical {
+    border: 2px solid rgb(249, 244, 244);
+    margin: 30px;
+    height: 0px;
+    position:static;
+    border-radius: 10px;
+}
+label{
+    display: block;
+}
+}
